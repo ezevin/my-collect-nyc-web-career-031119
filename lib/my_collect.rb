@@ -8,6 +8,6 @@ def my_collect (collection)
       array << new_ele
       i = i + 1
     end
-    return array.upcase
+    return array.split.upcase
   end 
 end
