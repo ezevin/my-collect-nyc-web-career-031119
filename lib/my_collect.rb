@@ -9,6 +9,5 @@ def my_collect (collection)
       i = i + 1
     end
     return array.upcase
-    
   end 
 end
