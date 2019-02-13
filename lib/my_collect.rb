@@ -5,9 +5,9 @@ def my_collect (collection)
     i = 0
     while i < collection.length
       new_ele = yield(collection[i])
-      array << new_ele
+      array << new_ele.upcase
       i = i + 1
     end
-    return array.split.upcase
+    return array
   end 
 end
