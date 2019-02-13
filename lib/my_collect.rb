@@ -7,10 +7,8 @@ def my_collect (collection)
     while i < collection.length
       new_ele = yield(collection[i])
       array << new_ele
-      
       i = i + 1
     end
     return array
-   
   end 
 end
