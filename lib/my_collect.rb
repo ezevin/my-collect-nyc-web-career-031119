@@ -1,7 +1,6 @@
 
 def my_collect (collection)
   array = []
-  other_array = []
   if block_given?
     i = 0
     while i < collection.length
